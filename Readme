@@ -1,1 +1,22 @@
-Example of looping over the lines in a file (In are case a bunch of mfc setpoints) 
+Example 1:  Example of looping over the lines in a file (In are case a bunch of mfc setpoints) 
+Example 2:  Extension for Example 1, create a file called varables_A.txt. The input file is then read.  The "Value" is then set to a global
+Varable.  write_variable_A is called which takes 100 samples of the input varable and appends it to the file varables_A.txt.
+Input:
+200
+400
+600
+800
+1000
+700
+350
+150
+0
+
+So the first value would be 1,200 second would be 2,200 etc
+1 , 200
+
+2 , 200
+
+3 , 200
+Until......
+900 , 0
